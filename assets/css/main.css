@@ -1,9 +1,26 @@
 /* element selectors org by parent*/
+
 body {
   margin: 0;
 }
 
 /* classes in alphabetical order */
-.bg-c-steel {
+.bgc-lgrey {
+  background-color: lightgrey;
+}
+
+.bgc-royalblue {
+  background-color: royalblue;
+}
+
+.bgc-steel {
   background-color: steelblue;
+}
+
+.pad {
+  padding: 1.5rem;
+}
+
+.w-100 {
+  width: 100%;
 }
