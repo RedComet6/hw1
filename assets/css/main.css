@@ -1,0 +1,9 @@
+/* element selectors org by parent*/
+body {
+  margin: 0;
+}
+
+/* classes in alphabetical order */
+.bg-c-steel {
+  background-color: steelblue;
+}
