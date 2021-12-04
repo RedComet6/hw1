@@ -10,6 +10,11 @@ body {
 }
 
 /* classes in alphabetical order */
+
+.ai-c {
+  align-items: center;
+}
+
 .bgc-boringblue {
   background-color: rgb(36, 137, 188);
 }
@@ -30,8 +35,20 @@ body {
   color: white;
 }
 
-.dis-flex {
+.d-f {
   display: flex;
+}
+
+.ff-impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.f-size2 {
+  font-size: 2rem;
+}
+
+.f-w700 {
+  font-weight: 700;
 }
 
 .jc-sb {
@@ -46,16 +63,20 @@ body {
   margin: 0;
 }
 
-.m-left {
+.m-l {
   margin-left: 1.5rem;
 }
 
-.m-top {
+.m-t {
   margin-top: 1.5rem;
 }
 
 .p {
   padding: 1.5rem;
+}
+
+.p0 {
+  padding: 0;
 }
 
 .w-100 {
@@ -65,7 +86,11 @@ body {
 /* media queries */
 
 @media (min-width: 768px) {
-  .dis-flex\@lrg {
+  .d-f\@lrg {
     display: flex;
+  }
+
+  .m-l\@lrg {
+    margin-left: 1.5rem;
   }
 }
